@@ -15,7 +15,7 @@ class MessageTest {
 
     @BeforeAll
     static void beforeAll() {
-        entityManagerFactory = Persistence.createEntityManagerFactory("HelloWorldPU");
+        entityManagerFactory = Persistence.createEntityManagerFactory("caveatEmptor");
         entityManager = entityManagerFactory.createEntityManager();
     }
 

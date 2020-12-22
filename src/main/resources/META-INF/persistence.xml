@@ -4,7 +4,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
 http://xmlns.jcp.org/xml/ns/persistence_2_1.xsd">
-    <persistence-unit name="HelloWorldPU">
+    <persistence-unit name="caveatEmptor">
         <class>com.hvdbs.model.Message</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
@@ -12,8 +12,8 @@ http://xmlns.jcp.org/xml/ns/persistence_2_1.xsd">
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@p.hvdbs.com:32001:orcl"/>
-            <property name="javax.persistence.jdbc.user" value="oe"/>
-            <property name="javax.persistence.jdbc.password" value="oe"/>
+            <property name="javax.persistence.jdbc.user" value="caveatEmptor"/>
+            <property name="javax.persistence.jdbc.password" value="caveatEmptor"/>
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
         </properties>

@@ -6,8 +6,8 @@
     <session-factory>
         <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
         <property name="connection.url">jdbc:oracle:thin:@p.hvdbs.com:32001:orcl</property>
-        <property name="connection.username">oe</property>
-        <property name="connection.password">oe</property>
+        <property name="connection.username">caveatEmptor</property>
+        <property name="connection.password">caveatEmptor</property>
         <property name="dialect">org.hibernate.dialect.Oracle12cDialect</property>
         <property name="show_sql">true</property>
         <mapping class="com.hvdbs.model.Message" />
